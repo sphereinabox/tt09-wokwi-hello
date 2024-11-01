@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+I've built 8-input logic gates, all using each of the 8 inputs.... or will eventually
 
 ## How to test
 
-Explain how to use your project
+Set the inputs 0..7 to your desired 8 inputs.
+
+Observe the outputs the corresponding output pins.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No specific external hardware is expected for this project.
