@@ -9,7 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-I've built 8-input logic gates, all using each of the 8 inputs.... or will eventually
+I've built 8-input logic gates, all using each of the 8 inputs....
+
+- OUT0 is 8-bit and of IN0..7
+- OUT1 is 8-bit nand of IN0..7
+- OUT2 is 8-bit or of IN0..7
+- OUT3 is 8-bit nor of IN0..7
+- OUT4 is 8-bit xor if IN0..7
+- OUT5 is MUX(sel=IN0, A=IN1, B+IN2)
+- OUT6,OUT7 driven by D-flip-flop: DFF(D<=IN0,CLK<=CLK, Q=>OUT6,QNOT=>OUT7)
 
 ## How to test
 
